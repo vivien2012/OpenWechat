@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/click_ll"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:text="我们要怀有一种健康而活泼的心情，善待自己的生命！要用自己的热情去呵护，去浇灌自己的生命！要用坚强的信念告慰自己，即使生活的道路困难重重，也要微笑面对，从容走过。"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="14sp"/>
+
+    <LinearLayout
+        android:id="@+id/click_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_wechat"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="打开微信"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
